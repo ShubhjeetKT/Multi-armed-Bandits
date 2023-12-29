@@ -3,7 +3,7 @@ In this notebook several classes of multi-armed bandits are implemented. This in
  
 In the part 1, Python classes EpsGreedy and UCB for both E-Greedy and UCB learners are implemented. Tie-breaking in play() should be completed uniformly-at-random among value-maximising arms.
  
-A breakthrough was made in this context when it was realised that MABs can be evaluated offline or off policy. In part 2, the third algorithm described in the following paper is implemented:
+A breakthrough was made in this context when it was realised that MABs can be evaluated offline or off policy. In part 2, the third algorithm described in the  following paper is implemented:
 
 Lihong Li, Wei Chu, John Langford, Robert E. Schapire, ‘A Contextual-Bandit Approach to Personalized News Article Recommendation’, in Proceedings of the Nineteenth International Conference on World Wide Web (WWW 2010), Raleigh, NC, USA, 2010.
 https://arxiv.org/pdf/1003.0146.pdf
