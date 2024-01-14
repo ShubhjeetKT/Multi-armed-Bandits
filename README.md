@@ -1,6 +1,6 @@
 # Multi-armed-Bandits 
 In this notebook several classes of multi-armed bandits are implemented. This includes epsilon greedy, UCB, Linear UCB (Contextual bandits) and Kernel UCB. Some of the well cited papers in this context are also implemented.
- 
+  
 In the part 1, Python classes EpsGreedy and UCB for both E-Greedy and UCB learners are implemented. Tie-breaking in play() should be completed uniformly-at-random among value-maximising arms.
  
 A breakthrough was made in this context when it was realised that MABs can be evaluated offline or off policy. In part 2, the third algorithm described in the  following paper is implemented:
